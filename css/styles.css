@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  padding: 10px;
+  background-color: rgb(45, 133, 133);
+  color: white;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#container p {
+  font-size: 6cqb;
+}
+
+#qtde-unica {
+  height: 30%;
+  width: 30%;
+  text-align: center;
+  background-color: rgb(45, 133, 133);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  border-left: 5px solid rgb(35, 40, 42);
+}
+
+#container-data {
+  background-color: rgb(238, 233, 233);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
